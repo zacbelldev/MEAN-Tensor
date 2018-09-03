@@ -22,13 +22,13 @@ const routes: Routes = [
     AppComponent,
     ListComponent,
     CreateComponent,
-    EditComponent,
-    MatToolbarModule
+    EditComponent
   ],
   imports: [
     BrowserModule,
     BrowserAnimationsModule,
-    RouterModule.forRoot(routes)
+    RouterModule.forRoot(routes),
+    MatToolbarModule
   ],
   providers: [],
   bootstrap: [AppComponent]

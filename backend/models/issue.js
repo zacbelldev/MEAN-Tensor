@@ -18,6 +18,10 @@ let Issue = new Schema({
     status: {
         type: String,
         default: 'Open'
+    },
+    image: { 
+        data: Buffer, 
+        contentType: String 
     }
 });
 
